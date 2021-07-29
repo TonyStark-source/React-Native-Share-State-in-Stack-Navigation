@@ -5,8 +5,9 @@ import { createStackNavigator } from '@react-navigation/stack'
 import { NavigationContainer } from '@react-navigation/native'
 import HomeScreen from './Components/HomeScreen'
 import DetailScreen from './Components/DetailScreen'
-import { Person } from './Global'
+
 const Stack = createStackNavigator()
+
 export default function App() {
   return (
     <NavigationContainer>
